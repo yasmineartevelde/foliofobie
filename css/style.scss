@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Nanum+Gothic:400,700');
+@import "symptomen";
+@import "behandeling";
+@import "over";
+@import "crowdfunding";
+
+/* kleuren */
+$color4: #ffffff;
+$color5: #484848;
+$color6: #000;
+$color7: #37313F;
+$color8: #B84232;
+
+$fontset1: 'Aleo', serif;
+$fontset2: 'Nanum Gothic', sans-serif;
+
+/* responsive */ 
+$breekpunt: 400px;
+$fullvw: 100vw;
+$full: 100%;
+
+/*title postition*/
+$titlepostition: 600px;
+$subtitlepostition: 1350px;
+
+ /*alignment*/
+$left: left;
+$right: right;
+$center: center;
+
+/*images*/
+$headerimage: '../assets/images/headert.png';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontset2;
+    color: $color6;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: transparent;
+}
+.img{
+    position: relative;
+    left: -5px;
+    top: -70px;
+    width: 70vw;
+    height: auto;
+
+    @media (min-width:$breekpunt){
+    position: relative;
+    left: -5px;
+    top: -100px;
+    width: 100vw;
+    height: auto;
+    //transform: scale(1.1);
+    }
+}
+nav{
+    z-index: 2000;
+    background-color: $color5;
+    opacity: 0.9;
+}
+.nav-item {
+    padding-left: 3.2em;
+}
+.navbar-brand {
+    h4 {
+        margin-left: 1em;
+        margin-top: 0.2em;
+    }
+}
+h1,h2,h3,h4 {
+    font-family: $fontset1;
+    font-weight: bold;
+    color: $color7;
+}
+h1 {
+    
+    @media (min-width:$breekpunt){
+    font-size: 4.3em;
+    }
+}
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+    margin-top: 2em;
+
+    @media (min-width:$breekpunt){
+    font-size: 2.5em;
+    margin-top: 3.2em;
+    }
+}
+h3 {
+    font-size: 1.4em;
+    
+
+}
+h4 {
+    font-size: 1.1em;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 0.8em;
+
+    @media (min-width:$breekpunt){
+        line-height: 1.6em;
+    }
+}
+footer {
+    background-color: $color7;
+    padding: 25px;
+    color: $color4;
+    font-size: .8em;
+    display:block;
+    color:white;
+
+    a {
+        color: $color8;
+    }
+    a:hover {
+        color: #C96051;
+    }
+
+    .footerlinks{
+        width:30%;
+        color:white;
+        margin-left: 4.2em;
+        margin-right: 13.2em;
+    }
+    .footerrechts{
+        width:70%;
+        color:white;
+    }
+    h4 {
+        color: $color4;
+    }
+    @media (min-width:$breekpunt){
+        padding: 60px;
+        margin-top: -108px;
+        display:flex;
+    }
+}
+.titel,
+.subtitel{
+    max-width: 700px;
+    position: absolute;
+    left: 27vw;
+}
+.titel{
+    top: 550px;
+
+    h1 {
+        margin-top: 15px;
+
+        @media (min-width:$breekpunt){
+            top: 60%;
+        }
+    }
+
+    h2 {
+        margin-top: -6px;
+
+        @media (min-width:$breekpunt){
+            margin-top: 0;
+        }
+    }
+}
+.subtitel{
+    top: 1090px;
+
+    h2 {
+        color: $color4;
+        padding: 10px 2px 10px 25px;
+        background-color: $color7;
+
+        @media (min-width:$breekpunt){
+            font-size: 2.5em;
+            color: $color7;
+            padding: 0;
+            background-color: transparent;
+        }
+        
+    }
+
+    @media (min-width:$breekpunt){
+        margin-top: 0.6em;
+        }
+
+
+}
+.active{
+    a{
+     color: $color8!important;
+     font-weight: 700;  
+    }
+}
+/*mediaqueries*/
+@media(max-width: 1270px) {
+    .titel{
+        top: 450px;
+    }
+    .subtitel{
+        top: 950px;
+    }
+  }
+@media(max-width:1000px) {
+    .titel{
+        top: 350px;
+    }
+    .subtitel{
+        top: 750px;
+    }
+}
+@media(max-width:930px) {
+    .titel{
+        top: 330px;
+    }
+    .subtitel{
+        top: 670px;
+    }
+}
+@media(max-width:852px) {
+    .titel{
+        top: 300px;
+    }
+    .subtitel{
+        top: 610px;
+    }
+}
+@media(max-width:780px) {
+        .titel{
+            top: 230px;
+        }
+        .subtitel{
+            top: 580px;
+        }
+  }
+@media(max-width:700px) {
+    .titel{
+        top: 220px;
+    }
+    .subtitel{
+        top: 500px;
+    }
+}
+@media(max-width:623px) {
+    .titel{
+        top: 160px;
+    }
+    .subtitel{
+        top: 430px;
+    }
+}
+@media(max-width:506px) {
+    .titel{
+        top: 150px;
+    }
+    .subtitel{
+        top: 330px;
+    }
+}
+@media(max-width:450px) {
+    .titel{
+        top: 120px;
+    }
+    .subtitel{
+        top: 300px;
+    }
+}
+@media(max-width:400px) {
+    .titel {
+        top: 235px;
+    }
+    .subtitel {
+        
+        left: 0vw;
+
+        
+        p {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    footer {
+        margin-top: 613px;
+        font-size: 0.8em;
+    }
+}
+@media(max-width:350px) {
+    .titel{
+        top: 80px;
+    }
+    .subtitel{
+        top: 220px;
+    }
+
+}

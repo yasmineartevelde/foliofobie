@@ -1,0 +1,179 @@
+/* kleuren */
+$color4: #ffffff;
+$color5: #484848;
+$color6: #000;
+$color7: #37313F;
+$color8: #B84232;
+
+$fontset1: 'Aleo', serif;
+$fontset2: 'Nanum Gothic', sans-serif;
+
+$breekpunt: 400px;
+
+.header-symptom {
+    header {
+        background-color: $color8;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        @media (min-width:$breekpunt){
+            background-color: $color8;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    h1 {
+        color: $color4;
+        text-align: center;
+    }
+}
+.herken {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.1em;
+
+    p {
+        padding-left: 1em;
+        padding-right: 1em;
+        color: $color8;
+
+        @media (min-width:$breekpunt){
+            color: $color8;
+        }
+    }
+    h2 {
+        padding-left: 1em;
+        
+        @media (min-width:$breekpunt){
+            font-size: 2.5em;
+            margin-top: 3.2em;
+        }
+    }
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.5em;
+        margin-top: 3.2em;
+        margin-bottom: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+
+        @media (min-width:$breekpunt){
+            text-align: center;
+            font-weight: normal;
+            font-size: 2em;
+            margin-top: 3.2em;
+            margin-bottom: 1em;
+        }
+    }
+}
+.oorzaken {
+    display: flex;
+    justify-content: center;
+
+    .oorzaken-big {
+        p {
+            padding-left: 1em;
+            padding-right: 1em;
+            margin-bottom: 2.1em;
+            color: $color8;
+
+            @media (min-width:$breekpunt){
+                margin-bottom: 2.1em;
+                color: $color8;
+            }
+        }
+
+        h2 {
+            margin-top: 3.2em;
+            padding-left: 1em;
+            padding-right: 1em;
+
+            @media (min-width:$breekpunt){
+                margin-top: 3.2em;
+            }
+        }
+    }
+}
+.oorzaken-small {
+    margin-bottom: 20px;
+
+    @media (min-width:$breekpunt){
+        margin-bottom: 240px;
+    }
+
+    p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 16px;
+
+        @media (min-width:$breekpunt){
+            font-size: 16px;
+        }
+    }
+}
+.symptoms {
+    p {
+        font-size: 16px;
+        margin-bottom: 1.2em;
+        margin-top: 1.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        @media (min-width:$breekpunt){
+            font-size: 16px;
+            margin-bottom: 1.8em;
+            margin-top: 1.8em;
+        }
+    }
+    hr {
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-bottom: 0;
+        background-color: #999999;
+
+        @media (min-width:$breekpunt){
+            margin-bottom: 0;
+            background-color: #999999;
+        }
+    }
+}
+.footerimg {
+    img {
+        width: 99vw;
+        height: auto;
+        margin-top: 60px;
+
+        @media (min-width:$breekpunt){
+            margin-bottom: 100px;
+        }
+    }
+}
+.footersymptom {
+
+    footer {
+        margin-top: -3px;
+
+        @media (min-width:$breekpunt){
+            padding: 60px;
+            margin-top: -108px;
+            display:flex;
+        }
+    }
+}

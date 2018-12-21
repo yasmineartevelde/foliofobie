@@ -1,0 +1,128 @@
+/* kleuren */
+$color4: #ffffff;
+$color5: #484848;
+$color6: #000;
+$color7: #37313F;
+$color8: #B84232;
+
+$fontset1: 'Aleo', serif;
+$fontset2: 'Nanum Gothic', sans-serif;
+
+.header-hoop {
+    header {
+        background-color: $color7;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        @media (min-width:$breekpunt){
+            background-color: $color7;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    h1 {
+        color: $color4;
+    }
+}
+
+.lotgenoten {
+    position: relative;
+    background-color: $color7;
+    padding: 2.3em 2em 2em 2em;
+    margin-top: 6em;
+    margin-bottom: 80px;
+
+    @media (min-width:$breekpunt){
+        position: relative;
+        background-color: $color7;
+        padding: 2em;
+        margin-top: 6em;
+    }
+    
+    img {
+        position: absolute;
+        bottom: 89%;
+        right: 72%;
+        width: 8em;
+        height: auto;
+    }
+
+    h2 {
+        color: $color4;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 3.2em;
+        color: $color4;
+    }
+}
+
+.btn {
+    background-color: $color8;
+    border: none;
+    padding: 1em;
+    border-radius: 1.8em;
+    text-align: center;
+    font-family: $fontset1;
+    width: 100%;
+    box-shadow: inset -5px -10px 8px #89312B;
+}
+.btn:hover {
+    background-color: #C96051;
+}
+
+.herstel-big {
+
+    h2 {
+        padding-left: 1em;
+        @media (min-width:$breekpunt){
+            font-size: 2.5em;
+            margin-top: 3.2em;
+        }
+    }
+
+    p {
+        color: $color8;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        @media (min-width:$breekpunt){
+            color: $color8;
+        }
+    }
+}
+
+.herstel-small {
+    p {
+        font-size: 16px;
+        margin-bottom: 50px;
+        padding-left: 1em;
+        padding-right: 1em;
+
+        @media (min-width:$breekpunt){
+            font-size: 16px;
+            margin-bottom: 240px;
+        }
+    }
+}
+
+.footerbehandeling {
+
+    footer {
+        margin-top: -3px;
+
+        @media (min-width:$breekpunt){
+            padding: 60px;
+            margin-top: -108px;
+            display:flex;
+        }
+    }
+}
