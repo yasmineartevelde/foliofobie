@@ -1011,10 +1011,13 @@ footer h4 {
 
 @media (max-width: 350px) {
   .titel {
-    top: 80px;
+    top: 200px;
   }
   .subtitel {
-    top: 220px;
+    top: 274px;
+  }
+  footer {
+    margin-top: 740px;
   }
 }
 /*# sourceMappingURL=style.css.map */

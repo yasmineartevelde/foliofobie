@@ -204,7 +204,6 @@ footer {
             padding: 0;
             background-color: transparent;
         }
-        
     }
 }
 .active{
@@ -307,10 +306,12 @@ footer {
 }
 @media(max-width:350px) {
     .titel{
-        top: 80px;
+        top: 200px;
     }
     .subtitel{
-        top: 220px;
+        top: 274px;
     }
-
+    footer {
+        margin-top: 740px;
+    }
 }
