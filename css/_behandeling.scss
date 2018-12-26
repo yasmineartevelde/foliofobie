@@ -35,14 +35,13 @@ $fontset2: 'Nanum Gothic', sans-serif;
     position: relative;
     background-color: $color7;
     padding: 2.3em 2em 2em 2em;
-    margin-top: 6em;
-    margin-bottom: 80px;
+    margin: 6em 1em 80px 1em;
 
     @media (min-width:$breekpunt){
         position: relative;
         background-color: $color7;
         padding: 2em;
-        margin-top: 6em;
+        margin: 6em 0 0 0;
     }
     
     img {
@@ -86,6 +85,7 @@ $fontset2: 'Nanum Gothic', sans-serif;
         @media (min-width:$breekpunt){
             font-size: 2.5em;
             margin-top: 3.2em;
+            padding: 0;
         }
     }
 
@@ -96,6 +96,7 @@ $fontset2: 'Nanum Gothic', sans-serif;
 
         @media (min-width:$breekpunt){
             color: $color8;
+            padding: 0;
         }
     }
 }
@@ -110,6 +111,7 @@ $fontset2: 'Nanum Gothic', sans-serif;
         @media (min-width:$breekpunt){
             font-size: 16px;
             margin-bottom: 240px;
+            padding: 0;
         }
     }
 }

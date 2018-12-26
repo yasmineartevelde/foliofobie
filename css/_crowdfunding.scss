@@ -41,7 +41,7 @@ $breekpunt: 400px;
         background-color: $color4;
         border-radius: 3.6em 3.6em 0 0;
         margin-top: 5.2em;
-        padding: 5.2em 2.5em 0 2.5em;
+        padding: 3.2em 2.5em 0 2.5em;
         margin-bottom: 240px;
         margin: 5.2em 0 240px 0;
     }
@@ -137,7 +137,7 @@ $breekpunt: 400px;
 
     @media (min-width:$breekpunt){
         position: absolute;
-        padding: 258px;
+        padding: 268px;
         background-color: $color8;
     }
 }
